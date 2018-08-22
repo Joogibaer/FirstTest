@@ -11,8 +11,6 @@ class App extends Component {
           <h1 className="App-title"> First four principles</h1>
         </header>
         <p className="App-intro">
-          {/* To get started, edit <code>src/App.js</code> and save to reload. */}
-          First four principles
         </p>
         <ul id="firstFourPrinciples">
         <h2 id="firstPrinciple">
