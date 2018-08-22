@@ -9,6 +9,8 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title"> First four principles</h1>
+         
+         
         </header>
         <p className="App-intro">
         </p>
@@ -74,8 +76,17 @@ class App extends Component {
           </li>
           </ul>
         </ul>
+
+
+        <h1>
+        The Scrum Master
+        </h1>
+        <div>
+          <img src="https://www.kegon.de/wp-content/uploads/ScrumMaster.png" className="App-log" alt="scrumMaster" />
+        </div>
       </div>
     );
+
   }
 }
 
