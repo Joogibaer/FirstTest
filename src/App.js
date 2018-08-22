@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import PO from './PO.jpg';
 import './App.css';
 
 class App extends Component {
@@ -33,7 +34,10 @@ to maintain a constant pace indefinitely.<br></br>
   </li> 
 
 		  </ul>
+      
+      <img src={PO} alt="Girl in a jacket" width="500" height="600" />
         </p>
+        
       </div>
     );
   }
