@@ -3,7 +3,7 @@ import task1 from './1.jpg';
 import task2 from './2.jpg';
 import task3 from './3.jpg';
 
-class Task extends Component {
+class Tasks extends Component {
   render() {
       return (
 

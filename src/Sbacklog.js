@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import devteam from './devteam.jpg';
 import sprintblog from './sprintblog.jpg'
 
 class Sbacklog extends Component {

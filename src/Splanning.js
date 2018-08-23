@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import pictSprintPl from './SprintPlanning.jpg';
 
-class SprintPlanning extends Component {
+class Splanning extends Component {
   render() {
       return (
 
