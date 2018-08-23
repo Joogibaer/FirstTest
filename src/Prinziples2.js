@@ -2,8 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import PO from './PO.jpg';
 import './App.css';
+import Prinziples3 from './Prinziples3.js';
+import Pbacklog from './Pbacklog.js';
+import Tasks from './Tasks.js';
+import Sbacklog from './Sbacklog.js';
+import Splanning from  './Splanning.js';
+import Codecoverage from  './Codecoverage.js';
 
-class App extends Component {
+class Prinziples2 extends Component {
   render() {
     return (
       <div className="App">
@@ -12,6 +18,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
+       
         
 		  <ul>
 		  <li > <b> Prinzip 5: </b> Build projects around motivated individuals. 
@@ -34,13 +41,20 @@ to maintain a constant pace indefinitely.<br></br>
   </li> 
 
 		  </ul>
+
       
-      <img src={PO} alt="Girl in a jacket" width="500" height="600" />
+      <img src={PO} class="center" width="500" height="600" />
         </p>
-        
+        <Prinziples3 />
+        <Pbacklog />
+        <Tasks />
+        <Sbacklog />
+        <Splanning />
+        <Codecoverage />
       </div>
     );
   }
 }
 
-export default App;
+
+export default Prinziples2;
