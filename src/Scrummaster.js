@@ -2,18 +2,13 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+class Scrummaster extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title"> First four principles</h1>
-         
-         
-        </header>
-        <p className="App-intro">
-        </p>
+        
+        <h2>Twelve Principles of Agile Software
+        </h2>
         <ul id="firstFourPrinciples">
           <h2 id="firstPrinciple">
             Our highest priority is to satisfy the customer
@@ -78,9 +73,9 @@ class App extends Component {
         </ul>
 
 
-        <h1>
+        <h2>
         The Scrum Master
-        </h1>
+        </h2>
         <div>
           <img src="https://www.kegon.de/wp-content/uploads/ScrumMaster.png" className="App-log" alt="scrumMaster" />
         </div>
@@ -90,4 +85,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Scrummaster;

@@ -7,7 +7,7 @@ class Codecoverage extends Component {
   render() {
     return (
 	<div>
-        <p>Code Coverage</p>
+        <h2>Code Coverage</h2>
         <p> Code Coverage is a measure used to describe the degree to
         which code is exercised by your test.
         It helps the developer by showing the ratio between tested and untested Code.

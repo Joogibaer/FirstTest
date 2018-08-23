@@ -8,6 +8,8 @@ import Tasks from './Tasks.js';
 import Sbacklog from './Sbacklog.js';
 import Splanning from  './Splanning.js';
 import Codecoverage from  './Codecoverage.js';
+import Scrummaster from  './Scrummaster.js';
+
 
 class Prinziples2 extends Component {
   render() {
@@ -15,10 +17,10 @@ class Prinziples2 extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Template</h1>
         </header>
         <p className="App-intro">
-       
+        <Scrummaster />
         
 		  <ul>
 		  <li > <b> Prinzip 5: </b> Build projects around motivated individuals. 
@@ -42,7 +44,9 @@ to maintain a constant pace indefinitely.<br></br>
 
 		  </ul>
 
-      
+      <h2>
+        The Product Owner
+        </h2>
       <img src={PO} class="center" width="500" height="600" />
         </p>
         <Prinziples3 />
@@ -51,6 +55,7 @@ to maintain a constant pace indefinitely.<br></br>
         <Sbacklog />
         <Splanning />
         <Codecoverage />
+        
       </div>
     );
   }

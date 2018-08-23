@@ -10,7 +10,7 @@ class Sbacklog extends Component {
         
       
       <h2> Sprint Backlog </h2>
-      <img src = {sprintblog} className = "sprintblog" alt ="pic" />
+      <img src = {sprintblog}  className = "devteam" alt ="pic" width="700" height="600" />
       </div>
     );
   }
