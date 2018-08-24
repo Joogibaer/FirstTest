@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import backlog from './Backlog.jpg';
+import backlogPicture from './Backlog.jpg';
 
-class Backlog extends Component {
+class Pbacklog extends Component {
   render() {
       return (
 
@@ -24,7 +24,7 @@ class Backlog extends Component {
   </ul>
 </ul>
 
-  <img src={backlog} alt="Backlog" width="800" height="400" />
+  <img src={backlogPicture} alt="Backlog" width="800" height="400" />
 
 </div>
 
