@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Prinziples2 from './Prinziples2';
+import Template from './Template';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Prinziples2 />, document.getElementById('root'));
+ReactDOM.render(<Template />, document.getElementById('root'));
 registerServiceWorker();
